@@ -159,6 +159,11 @@ export function IOSDatePickerModal({
       if (dayRef.current) {
         dayRef.current.scrollTop = 0
       }
+    } else {
+      // Update scroll position to sync with new minDay value
+      if (dayRef.current) {
+        dayRef.current.scrollTop = (selectedDay - minDay) * ITEM_HEIGHT
+      }
     }
   }, [selectedMonth, selectedYear])
 
