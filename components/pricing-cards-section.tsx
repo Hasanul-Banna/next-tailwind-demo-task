@@ -105,7 +105,7 @@ export function PricingCardsSection() {
         {/* Decorative star at top center */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-16 star-pulse">
           <Image
-            src="/starSmall.svg"
+            src="/StarSmall.svg"
             alt="Star decoration"
             width={64}
             height={64}
@@ -122,7 +122,7 @@ export function PricingCardsSection() {
         {/* Decorative star right side */}
         <div className="absolute top-2/3 right-12 -translate-y-1/2 w-16 h-16">
           <Image
-            src="/starBig.svg"
+            src="/StarBig.svg"
             alt="Star decoration"
             width={64}
             height={64}
